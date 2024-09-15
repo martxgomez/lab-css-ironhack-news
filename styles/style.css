@@ -189,6 +189,10 @@ header {
 /* Write your CSS below */
 
 @media (max-width: 759px) {
+  .menu-icon{
+    display: none;
+  }
+  
   .navbar {
     list-style-type: none;
     width: 100%;
@@ -246,6 +250,9 @@ header {
 }
 
 @media (min-width: 760px) and (max-width: 1023px) {
+  .menu-icon{
+    display: none;
+  }
   .navbar {
     list-style-type: none;
     width: 100%;
@@ -278,7 +285,10 @@ header {
  display: none;
   }
 
-  header {
+  .menu-icon{
+    display: flex;
+    margin: auto;
     padding-bottom: 5px;
+    text-align: center;
   }
 }
